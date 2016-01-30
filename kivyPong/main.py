@@ -6,7 +6,10 @@ from kivy.properties import NumericProperty, ReferenceListProperty, \
     ObjectProperty
 from kivy.clock import Clock
 from kivy.vector import Vector
+from kivy.core.window import Window
 from random import randint
+
+Window.clearcolor = (1, 1, 1, 0)
 
 
 class PongGame(Widget):
